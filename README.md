@@ -1,85 +1,117 @@
-# 🚀 Cognifyz IT Solutions - Web Development Internship
+# 🚀 Cognifyz Web Development Internship
 
-## Level 2 - Task 1
-
-This repository contains the implementation of **Level 2 - Task 1** completed as part of the **Web Development Internship at Cognifyz IT Solutions Pvt. Ltd.**
+This repository contains my **Level 2 Frontend Development Tasks** completed during my **Web Development Internship** at **Cognifyz IT Solutions Pvt. Ltd.**
 
 ---
 
-## 📌 Task 1: Responsive Card using Bulma
-
-Designed and developed a responsive card component using the **Bulma CSS Framework**.
-
-### Features
-
-- Responsive Card Design
-- Modern User Interface
-- Hero Section
-- Navigation Bar
-- Footer
-- Hover Effects
-- Mobile-Friendly Layout
-
-### Technologies Used
+## 📌 Technologies Used
 
 - HTML5
 - CSS3
+- JavaScript
+- Bootstrap
 - Bulma
 
 ---
 
-## 📌 Task 2: Responsive Grid using Bootstrap
-
-Implemented a responsive grid layout using the **Bootstrap Framework**.
-
-### Features
-
-- Responsive Bootstrap Grid
-- Six Technology Cards
-- Navigation Bar
-- Hero Section
-- Footer
-- Hover Effects
-- Mobile-Friendly Design
-
-### Technologies Used
-
-- HTML5
-- CSS3
-- Bootstrap 5
-
----
-
-## 📁 Project Structure
+# 📂 Project Structure
 
 ```text
-Cognifyz-Level2-Task1/
+Cognifyz/
 │
+├── index.html
 ├── README.md
+│
 ├── bulma-card/
-└── bootstrap-grid/
+├── bootstrap-grid/
+├── responsive-landing-page/
+└── hamburger-navbar/
 ```
 
 ---
 
-## 🚀 How to Run
+# 📌 Task 1
 
-1. Clone this repository.
-2. Open the project in Visual Studio Code.
-3. Open either:
-   - `bulma-card/index.html`
-   - `bootstrap-grid/index.html`
-4. Run using **Live Server** or open the HTML files directly in your browser.
+## Responsive Card using Bulma
 
----
+### Features
 
-## 🛠️ Technologies Used
+- Responsive Card Layout
+- Hero Section
+- Navbar
+- Footer
+- Hover Effects
+- Mobile Friendly
+
+### Technology
 
 - HTML5
 - CSS3
 - Bulma
-- Bootstrap 5
-- Google Fonts (Poppins)
+
+---
+
+# 📌 Task 2
+
+## Responsive Grid using Bootstrap
+
+### Features
+
+- Responsive Grid System
+- Bootstrap Cards
+- Navbar
+- Footer
+- Responsive Design
+
+### Technology
+
+- HTML5
+- CSS3
+- Bootstrap
+
+---
+
+# 📌 Task 3
+
+## Responsive Landing Page
+
+### Features
+
+- Responsive Layout
+- CSS Media Queries
+- Hero Section
+- Features Section
+- About Section
+- Course Cards
+- Responsive Design
+- Smooth Scrolling
+
+### Technology
+
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+# 📌 Task 4
+
+## Responsive Hamburger Navigation Menu
+
+### Features
+
+- Sticky Navigation Bar
+- Responsive Navigation
+- Hamburger Menu
+- Mobile Friendly
+- Hero Section
+- Smooth Menu Toggle
+
+### Technology
+
+- HTML5
+- CSS3
+- JavaScript
 
 ---
 
