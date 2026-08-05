@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pragya Singh | Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sticky Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Pragya<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            <div class="hero-content reveal active"> <!-- Added active so it shows immediately -->
+                <p class="hero-subtitle">Hello, I'm</p>
+                <h1 class="hero-title">PRAGYA SINGH</h1>
+                <h2 class="hero-role">MERN Stack Developer</h2>
+                <p class="hero-description">
+                    A passionate B.Tech Computer Science (AI & ML) student with experience in Full Stack Web Development and Data Structures & Algorithms. I enjoy building scalable web applications and solving real-world problems.
+                </p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="#" class="btn btn-secondary">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image-container reveal active">
+                <div class="image-wrapper">
+                    <!-- Path updated to profile.png -->
+                    <img src="images/profile.png" alt="Pragya Singh" loading="eager">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-card reveal">
+                <h2 class="section-title">About Me</h2>
+                <p class="about-text">
+                    Computer Science undergraduate specializing in Artificial Intelligence & Machine Learning with a strong interest in Full Stack Development. Passionate about creating modern, responsive, and user-friendly web applications using the MERN Stack while continuously improving problem-solving skills through Data Structures and Algorithms.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <h2 class="section-title text-center">Technical Skills</h2>
+            <div class="skills-grid reveal">
+                <div class="skill-pill">HTML</div>
+                <div class="skill-pill">CSS</div>
+                <div class="skill-pill">JavaScript</div>
+                <div class="skill-pill">React.js</div>
+                <div class="skill-pill">Node.js</div>
+                <div class="skill-pill">Express.js</div>
+                <div class="skill-pill">MongoDB</div>
+                <div class="skill-pill">C++</div>
+                <div class="skill-pill">Git</div>
+                <div class="skill-pill">GitHub</div>
+                <div class="skill-pill">Postman</div>
+                <div class="skill-pill">SQL</div>
+                <div class="skill-pill">AWS</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <h2 class="section-title text-center">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>ClubNexus</h3>
+                        <p>Responsive MERN platform for college clubs with event management, authentication, and dashboards.</p>
+                        <div class="tech-stack">
+                            <span>React</span><span>Node</span><span>Express</span><span>MongoDB</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1615461066870-40b124f293db?auto=format&fit=crop&q=80&w=600" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Blood Bank Website</h3>
+                        <p>Role-based blood donation platform with authentication and inventory management.</p>
+                        <div class="tech-stack">
+                            <span>React</span><span>Node</span><span>MongoDB</span><span>JWT</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=600" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Alumni Management</h3>
+                        <p>Alumni portal with recommendation system using ML and networking features.</p>
+                        <div class="tech-stack">
+                            <span>React</span><span>Node</span><span>MongoDB</span><span>ML</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section class="edu-cert section" id="education">
+        <div class="container grid-2">
+            <div class="education-box reveal">
+                <h2 class="section-title">Education</h2>
+                <div class="edu-item">
+                    <div class="edu-dot"></div>
+                    <h4>KIET Group of Institutions</h4>
+                    <p class="edu-meta">B.Tech CSE (AI & ML) | 2023 – 2027</p>
+                    <p class="edu-grade">CGPA: 8.68</p>
+                </div>
+            </div>
+
+            <div class="cert-box reveal">
+                <h2 class="section-title">Certifications</h2>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <i class="fab fa-aws"></i>
+                        <p>AWS AI Practitioner</p>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fab fa-aws"></i>
+                        <p>AWS Cloud Practitioner</p>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-database"></i>
+                        <p>MongoDB Introduction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container text-center reveal">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-links">
+                <a href="mailto:bhadauriyapragya2004@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fas fa-code"></i></a>
+            </div>
+            <a href="mailto:bhadauriyapragya2004@gmail.com" class="btn btn-primary">Say Hello</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Designed & Developed by <span>Pragya Singh</span></p>
+            <p class="copyright">&copy; 2026 All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

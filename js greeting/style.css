@@ -1,0 +1,33 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#f0f4f8;
+}
+
+.container{
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,.2);
+text-align:center;
+}
+
+button{
+margin-top:20px;
+padding:12px 35px;
+background:#ff6b6b;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+font-size:18px;
+}

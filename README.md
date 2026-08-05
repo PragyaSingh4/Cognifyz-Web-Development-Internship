@@ -1,124 +1,116 @@
-# 🚀 Cognifyz Web Development Internship
+# 🌐 Cognifyz Web Development Internship
 
-This repository contains my **Level 2 Frontend Development Tasks** completed during my **Web Development Internship** at **Cognifyz IT Solutions Pvt. Ltd.**
+This repository contains all the tasks completed during my **Web Development Internship** at **Cognifyz Technologies**.
 
----
-
-## 📌 Technologies Used
+The projects demonstrate my skills in:
 
 - HTML5
 - CSS3
-- JavaScript
-- Bootstrap
-- Bulma
+- JavaScript (ES6)
+- Bootstrap 5
+- Bulma CSS
+- Responsive Web Design
+- Front-end Development
 
 ---
 
 # 📂 Project Structure
 
-```text
-Cognifyz/
+```
+COGNIFYZ
+│
+├── webpage
+├── input form
+├── navigation
+├── js button
+├── js greeting
+├── js calculator
+│
+├── bulma-card
+├── bootstrap-grid
+├── responsive-landing-page
+├── hamburger-navbar
 │
 ├── index.html
-├── README.md
-│
-├── bulma-card/
-├── bootstrap-grid/
-├── responsive-landing-page/
-└── hamburger-navbar/
+└── README.md
 ```
 
 ---
 
-# 📌 Task 1
+# 🚀 Level 1 Tasks
 
-## Responsive Card using Bulma
+### 1. Basic Webpage
+- Heading
+- Paragraph
+- Image
 
-### Features
+### 2. Input Form
+- Single Input Field
+- Submit Button
 
-- Responsive Card Layout
-- Hero Section
-- Navbar
-- Footer
-- Hover Effects
-- Mobile Friendly
-
-### Technology
-
-- HTML5
-- CSS3
-- Bulma
-
----
-
-# 📌 Task 2
-
-## Responsive Grid using Bootstrap
-
-### Features
-
-- Responsive Grid System
-- Bootstrap Cards
-- Navbar
-- Footer
-- Responsive Design
-
-### Technology
-
-- HTML5
-- CSS3
-- Bootstrap
-
----
-
-# 📌 Task 3
-
-## Responsive Landing Page
-
-### Features
-
-- Responsive Layout
-- CSS Media Queries
-- Hero Section
-- Features Section
-- About Section
-- Course Cards
-- Responsive Design
-- Smooth Scrolling
-
-### Technology
-
-- HTML5
-- CSS3
-- JavaScript
-
----
-
-# 📌 Task 4
-
-## Responsive Hamburger Navigation Menu
-
-### Features
-
-- Sticky Navigation Bar
+### 3. Navigation Menu
 - Responsive Navigation
-- Hamburger Menu
-- Mobile Friendly
-- Hero Section
-- Smooth Menu Toggle
+- Multiple Links
 
-### Technology
+### 4. JavaScript Button
+- Button changes color on click
+
+### 5. Greeting Alert
+- Displays greeting according to current time
+
+### 6. JavaScript Calculator
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Percentage
+- Decimal Support
+- Clear & Delete
+
+---
+
+# 💻 Level 2 Tasks
+
+### 1. Responsive Card
+- Built using **Bulma CSS**
+- Responsive Card Component
+
+### 2. Responsive Grid
+- Bootstrap Grid System
+- Responsive Layout
+
+### 3. Responsive Landing Page
+- Mobile Friendly
+- Media Queries
+- Modern UI
+
+### 4. Hamburger Navigation
+- Responsive Navbar
+- Mobile Menu
+- CSS + JavaScript
+
+---
+
+# 🛠️ Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
+- Bootstrap 5
+- Bulma CSS
 
 ---
 
-## 👩‍💻 Developed By
+# 👩‍💻 Author
 
 **Pragya Singh**
 
-**Web Development Intern**
+B.Tech CSE (AI & ML)
 
-**Cognifyz IT Solutions Pvt. Ltd.**
+Web Development Intern
+
+Cognifyz Technologies
+
+---
+
+⭐ Thank you for visiting this repository!
